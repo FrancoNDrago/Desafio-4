@@ -36,11 +36,11 @@ $botonSubmit.addEventListener("click", event => {
 
 function agregarProductos(listaProductos) {
     listaProductos.forEach(producto => {
-        agregarProductos(producto);
+        agregarProducto(producto);
     });
 }
 
-function agregarProductos(producto) {
+function agregarProducto(producto) {
     let fila = document.createElement("tr");
 
     let title = document.createElement("td");

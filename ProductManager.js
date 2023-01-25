@@ -42,7 +42,7 @@ class ProductManager {
             this.productos = fm.leerArchivo(this._path);
         }
 
-        return (this.productos.find(actual => producto.code == actual.code) !== undefined)
+        return (this.productos.find(actual => producto.code == actual.code) !== undefined);
     }
 
 	existeIdProducto(idProducto){

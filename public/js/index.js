@@ -16,7 +16,7 @@ socket.on("nuevoProducto", producto => {
 })
 
 
-$botonSubmit = document.getElementById("boton_guardar_producto");
+$botonSubmit = document.getElementById("btn_guardar_producto");
 
 $botonSubmit.addEventListener("click", event => {
     event.preventDefault();
